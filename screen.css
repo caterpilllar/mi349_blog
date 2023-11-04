@@ -1,1 +1,29 @@
 /* Add screen styles below */
+html{
+    background-color: #CA7081;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid #873D48;
+    background: #F0C3CA;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+.blog-post{
+    border-bottom: 3px dotted #ffffff;
+}
+
+#blog{
+   border-top: 3px dotted #ffffff;
+}
