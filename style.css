@@ -1,0 +1,75 @@
+/* Add screen styles below */
+html{
+    background-color: #CA7081;
+    color: #873D48;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    border-top: 10px solid #873D48;
+    background: #F0C3CA;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+.blog-post{
+    border-bottom: 3px dotted #ffffff;
+}
+
+#blog{
+    padding-top: 10px;
+    border-top: 5px dotted #ffffff;
+}
+
+.img-container-1{
+    float: right;
+    padding-left: 20px;
+    height: 400px;
+}
+
+#newsletter{
+    padding-top: 20px;
+}
+
+#table-photo{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.img-container-2{
+    height: 350px;
+    flex: 1;
+}
+
+table, th, td{
+    flex: 1;
+    border:solid 2px #873D48;
+    text-align: center;
+    margin-right: 20px;
+}
+
+caption{
+    padding: 10px;
+    font-weight: bold;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+p[title]{
+    font-size: xx-large;
+    font-weight: bold;
+}
